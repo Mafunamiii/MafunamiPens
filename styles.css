@@ -1,0 +1,365 @@
+body {
+    margin: 0px;
+    background-color: #272727;
+    font-family: "outfit", sans-serif;
+    color: rgb(247, 199, 167);
+}
+
+.contain-elements {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-block{
+    background-color: #313035;
+    margin: 20px;   
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+.nav-block .nav-wrap .Left-side .nav-link-wrap a{
+    color: rgb(247, 199, 167);
+}
+
+.nav-block .nav-wrap .Right-side .nav-link-wrap a{
+    color: rgb(247, 199, 167);
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.Left-side, .Right-side {
+    display: flex;
+}
+
+.nav-wrap .Left-side .nav-link-wrap{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;   
+}
+
+.nav-wrap .Right-side .nav-link-wrap{
+    margin-right: 20px;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.nav-wrap .Right-side .Right-side{
+    margin-right: 20px;
+    font-size: .9em;
+    text-transform: uppercase;
+    color: rgb(247, 199, 167);
+}
+
+.nav-link-wrap {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrap a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color\ 0.5s;
+}
+
+.nav-link-wrap:hover {
+    border-bottom: 1px solid rgb(255, 183, 136);
+}
+
+.nav-link-wrap a:hover {
+    color: black;
+}
+
+/* Home Menu Styles */
+
+.content-wrap {
+    background-color: #424242;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: max-content ;
+}
+
+.home-page-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 100px 0px 30px 0px;
+
+}
+
+.content-wrap img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+
+}
+
+.content-column-wrap img:hover{
+    background-color: #000;
+    opacity:0.75;
+    transition: 0.5s;
+}
+
+
+/* Home Columns */
+
+.content-column-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*body contents*/
+
+.textbox {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    color: rgb(247, 199, 167);
+}
+
+.textbox h1 {
+    font-size: 30px;
+}
+
+.textbox p {
+    font-size: 20px;
+}
+
+.textbox ul {
+    font-size: 20px;
+}
+
+.textbox blockquote {
+    font-size: 25px;
+}
+
+.block
+
+
+
+.tab-right p{
+    text-align: left;
+}
+
+.tab-left p{
+    text-align: right;
+}
+
+.container-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-wrap img{
+    height: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-wrap iframe{
+
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.table-section {
+    width: auto;
+    height: auto;
+    margin: 30px;
+    margin-top: 30px;
+    display: block;
+}
+
+.table-section table {
+    font-family: "outfit", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-section td, th {
+    border: 1px solid #2e273b;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-section  tr:nth-child(even) {
+    background-color: #2e273b;
+}
+.table-section table caption {
+    font-size:30px;
+    font-weight: bold;
+}
+.table-section img {
+    height: auto;
+    width: 40%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-section table tr tr td p {
+    font-size: 2px;
+}
+.content-column-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery table tr {
+    background-color: rgb(88, 88, 117);
+}
+
+div.polaroid {
+    width: 80%;
+    margin: 0px auto 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+/*==========================*/
+
+.content-wrap, .inquiryHeader {
+    background-color: #424242;
+
+    padding: 10px 50px 30px 50px;
+    margin: 0px 20px 20px 20px;
+    height: max-content ;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: rgb(250, 223, 206);
+    padding: 10px;
+    border-radius: 15%;
+}
+
+#mainfieldset {
+    margin: 20px 50px 100px 20px;
+    width: 65%;
+    padding-right: 20px;
+    border: 1px solid rgb(250, 223, 206);
+}
+
+fieldset {
+    border: 1px solid rgb(250, 223, 206);
+}
+
+#parPad {
+    padding: 30px;
+}
+
+#inquiryheader {
+    font-size: 45px;
+    padding-left: 20px;
+}
+
+#inquiryhr {
+    width: 70%;
+    border: 2px solid rgb(250, 223, 206);
+    padding-right: 20px;
+    margin: 0px 20px; 
+}
+
+#inquiryhr2 {
+    width: 65%;
+    padding-right: 20px;
+    margin: 5px 20px; 
+    border: 1px solid rgb(250, 223, 206)
+}
+
+input {
+    margin: 10px;
+}
+
+#contact {
+    padding: 20px;
+    text-align: justify;
+    font-size: 12;
+}
+
+.content-wrap .inquiryHeader img {
+    margin: 30px auto 50px auto;
+}
+
+/*==========================*/
+
+ol.a {
+    list-style-type: square;
+}
+
+a:link {
+    color: rgb(247, 199, 167);
+}
+a:visited {
+    color: rgb(148, 121, 104);
+}
+a:hover {
+    color: #0892bd;
+}
+a:active {
+    color: #b38f00;
+}
+
+.content-wrap .textbox-footer .footer ol li{
+    margin: 15px 0px 50px 0px;
+    list-style: none;
+}
+
+.content-wrap .textbox-footer .footer h1{
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.textbox-footer {
+    width: 80%;
+    text-align: left;
+    color: rgb(247, 199, 167);
+    margin-bottom: 50px;
+    margin-left: 20px
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox:target {
+    display: block;
+}
+
+.lightbox span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
